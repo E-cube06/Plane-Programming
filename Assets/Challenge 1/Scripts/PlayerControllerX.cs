@@ -16,7 +16,7 @@ public class PlayerControllerX : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // get the user's vertical input
         verticalInput = Input.GetAxis("Vertical");
